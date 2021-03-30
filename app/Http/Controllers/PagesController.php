@@ -7,14 +7,9 @@ use App\Models\User;
 
 class PagesController extends Controller
 {
-    
+
     public function home()
     {
-        return view('index');
-    }
-    
-    public function frekuensi()
-    {
-        return view('frekuensi');
+        return view('/home/home');
     }
 }
